@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--DO NOT ALTER. This is the -->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank">https://au.linkedin.com/in/nick-symons-b41403208?trk=people-guest_people_search-card</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>Nick Symons</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--INTRODUCTION AND ABOUT-->
+	<div class="intro bar" id="about"><h2>About</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		This website is the geoportfolio of Nick Symons. The website entails
+		information that is academically and profesionally related to the field of geospatial science 
+		<p>
+			I'm a 4th year Geospatial Science student from Melbourne, Australia. 
+			My geospatial interests include working with remote sensing data, analyzing aerial imagery, 
+			distribution modeling, creating 3D models using spatial data, and data analysis. 
+			My current projects involve exploring the relationship between cycling-related crashes and 
+			their contributing factors using machine learning models. I also have a keen interest in artificial intelligence.
+		</p>
+		<p>
+		My own personal hobbies include travelling, swimming and waterpolo! 
+		</p>	
+	<img src="C:\Users\s3899\Desktop\Geoportfolio_template\IMG_E1602.JPG" height="500px" width="auto" class="image"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	<!--END OF INTRODUCTION AND ABOUT SECTION-->
+
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Cartography</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you have done yourself-->
+	<div class="paragraphs"> <!-- #ID# #AP TEXT# -->
+		Cartography consists of creating maps using spatial data obtained from sources such as publicly online government data and population numbers from the Australian
+		Bureau of Statistics (ABS). While there were two tests and a first practical (not included as it was more of a report rather than a map), the significant
+		practicals completed in Cartography 2 involved the production of three maps of the student's choice based on a specific topic:
+		<ul> <!--Bullet points below-->
+			<li>Practical 2: Map directed at a target audience of choice using provided data of the Botanical Gardens</li>
+			<li>Practical 3: Thematic mapping of a demographic's population using data from the Australian Bureau of Statistics (ABS)</li>
+			<li>Final Cartography Map: Free-choice on topic</li>
+		</ul> <!--End of bullet points-->
+		<p>
+			Below are the three maps that I have created as part of my course:
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+	<div class="bar"><h3>Botanical Gardens Tree map</h3></div> <!--Assignment name-->
+	<img src="C:\Users\s3899\Desktop\Geoportfolio_template\Cartog2.png" width="auto" height="800px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--END OF SUBJECT 1-->
+
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2> Earth Observation Science (AGT)</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you have done yourself-->
+	<div class="paragraphs">
+		At RMIT, the Earth Observation Science subject focuses on the use of satellite and aerial remote sensing technologies to collect, 
+		analyze, and interpret data about the Earth's surface. This subject typically covers key topics such as:
+		<ul>
+			<li>Geospatial Analysis</li>
+			<li>Satellite Imaging</li>
+			<li>Remote sensing</li>
+		</ul>
+		<p>
+		<p>
+
+			In Earth Observation at RMIT, I analyzed satellite imagery and created classification maps using JavaScript and Google Earth Engine. 
+			This involved processing remote sensing data,performing spatial analysis,
+			 and classifying land cover or other environmental features based on spectral signatures. 
+			 I worked with large datasets,applied machine learning algorithms for classification, and gained insights into environmental changes or patterns visible from space.
+		</p>
+		<p>
+			
+		</p>
+	</div>	
+
+	<div class="bar"><h3> Vineyards of Margaret River</h3></div>
+	<img src="C:\Users\s3899\Desktop\Geoportfolio_template\Vineyards.png" width="auto" height="600px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Thermal Heat image of vineyard</h3></div>
+	<img src="C:\Users\s3899\Desktop\Geoportfolio_template\Map 1_Linkedin.png" width="40%" height="auto" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+     <div>
+
+	
+
+	<!--SUBJECT 2-->
+
+	
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+	<div class="paragraphs">
+		This page will briefly cover all my work experience (as of September 2022) within the geospatial science industry. The two main companies that I have worked at 
+		were Cardinia Shire and Spiire. This page will outline my experience gained and skills I have learned from working at AAM Group and Tetra Tech along with an
+		overview of my current geospatial skillset.
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>Cardinia Shire Council</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="C:\Users\s3899\Desktop\Geoportfolio_template\CardiniaSC_Logo_COLOUR.png" width="auto" height="100px" class="image"> <!-- #ID# #COMPANY# #PICTURE# Change the image to be of a company logo you have worked for-->
+	<div class="job-title">Geospatial Intern </div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">July 2023 - March 2024</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		During my 240-hour work experience at Cardinia Shire Council, I gained substantial insights into the operations and standards of the geospatial industry. 
+		The Council is deeply involved in geospatial activities and specializes in a broad array of geospatial services as a core part of its business. 
+		My focus was on asset management, which required me to actively participate in the capture and collection of spatial data. 
+		This data was crucial for the mapping team to process and transform into formats usable for various client projects, 
+		allowing me to contribute directly to workplace operations.
+		<p>
+
+		</p>
+	</div>
+	<!--END OF COMPANY 1-->
+	
+	
+	<!--COMPANY 2-->
+
+	<div class="bar"><h3>Spiire</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="C:\Users\s3899\Desktop\Geoportfolio_template\Spiire.logo.png" width="auto" height="100px" class="image"> <!-- #ID# #PICTURE# Change the image to be of a company logo you have worked for-->
+	<div class="job-title">Surveyors Assistant</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">January 2022 - July 2022</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		
+As a surveyor's assistant at SPIIRE, I balanced a mix of field and office responsibilities. 
+In the field, I assisted with various surveying tasks, helping to gather and verify spatial data essential for projects. 
+In the office, my duties included drafting detailed drawings and maps using CivilCAD, ensuring accuracy and compliance with project specifications. Additionally,
+I actively participated in weekly meetings every Friday, where I engaged in discussions that shaped project directions and workflows. 
+
+		<p>
+			In my drafting duties at SPIIRE, I focused on creating survey plans for new developments.
+		    This involved translating field measurements into detailed and accurate drawings, 
+			essential for the planning and execution of construction projects.		
+		</p>
+	</div>
+	<!--END OF COMPANY 2-->
+
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/GIS.png" class="iconimages"></td>
+				<td>GIS</td>
+                <td><img src="Icons/QGIS-icon.png" class="iconimages"></td>
+				<td>QGIS</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/cartography-icon.png" class="iconimages"></td>
+				<td>Cartographic Principles</td>
+                <td><img src="Icons/adobe-illustrator.png" class="iconimages"></td>
+				<td>Adobe Illustrator</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/rs-satellite-icon.png" class="iconimages"></td>
+				<td>Remote Sensing</td>
+                <td><img src="Icons/drone-icon.png" class="iconimages"></td>
+				<td>Photogrammetry and Drone Mapping</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/web-design.png" class="iconimages"></td>
+				<td>Web Design: HTML & CSS</td>
+                <td><img src="Icons/webgis.png" class="iconimages"></td>
+				<td>Web GIS</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/python-icon.png" class="iconimages"></td>
+				<td>Python Programming</td>
+                <td><img src="Icons/sql.png" class="iconimages"></td>
+				<td>SQL Database Management</td>
+            </tr>
+        </table>
+    </div>
+	<!--END OF Skills and Proficiencies table-->
+
+
+	<!--CREDITS AND ATTRIBUTIONS-->
+	<div class="pagetitle" id="credits"> <!-- #ID# #CREDITS#-->
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="paragraphs">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+            <li>Cartography 2 (GEOM2079)</li>
+            <li>Applied Geospatial Techniques (GEOM2083)</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+            <li>Shinjita das</li>
+            <li>Nick Lee</li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a> and <a href="https://stackoverflow.com/">Stack Overflow</a> (a lot!)</li>
+            <li><a href="https://www.flaticon.com/">Flaticon</a></li>
+        </ul>
+        As per the policy of using the Flaticons with a free account, the attributions and crediting of the creators of the icons are as below:
+		
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/database" title="database icons">Database icons created by Stockio - Flaticon</a></th>
+            <th><img src="Icons/sql.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/draw" title="draw icons">Draw icons created by monkik - Flaticon</a></th>
+            <th><img src="Icons/cartography-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/adobe-illustrator" title="adobe illustrator icons">Adobe illustrator icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/adobe-illustrator.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/python-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/web-design.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/web-site" title="web site icons">Web site icons created by wanicon - Flaticon</a></th>
+            <th><img src="Icons/webgis.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/drone" title="drone icons">Drone icons created by Smashicons - Flaticon</a></th>
+            <th><img src="Icons/drone-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/satellite" title="satellite icons">Satellite icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/rs-satellite-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></th>
+            <th><img src="linkedin.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+	<!--END OF CREDITS AND ATTRIBUTIONS-->
+
+
+
+	<!--FOOTER-->
+	<div class="footer"> 
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Ditto Pikachu (Nick).
+		</div>
+		<table class="contacttable"> <!-- #ID# #CONTACT# -->
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Email Nick Symons here:
+					<br><a href = "mailto:dittopikachu@gmail.com">nicjsymons@gmail.com</a>
+				</th>
+				<th>Mobile:
+					<br>0456862294
+				</th>
+			</tr>
+		</table>
+	</div>
+	<!--END OF FOOTER-->
+
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
